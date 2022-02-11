@@ -94,5 +94,27 @@
             android:background="@color/white"
             android:hint="My EditText..."
             android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tv_task5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@color/white"
+            android:text="5-Task"
+            android:textSize="24sp"
+            android:textColorLink="#39FF00"/>
+
+        <TextView
+            android:id="@+id/tv_task6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@color/white"
+            android:text="6-Task"
+            android:textSize="24sp"
+            />
     </LinearLayout>
+
+
 </androidx.core.widget.NestedScrollView>
